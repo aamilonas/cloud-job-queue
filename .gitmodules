@@ -1,0 +1,3 @@
+[submodule "cloud-front-end/Cloud-Image-Project"]
+	path = cloud-front-end/Cloud-Image-Project
+	url = https://github.com/aamilonas/Cloud-Image-Project.git

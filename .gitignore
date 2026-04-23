@@ -1,0 +1,42 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+!terraform/example.tfvars
+# .terraform.lock.hcl is intentionally committed to pin provider versions.
+terraform/.builds/
+crash.log
+crash.*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.env
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# AWS
+.aws/
+
+# Docker
+.dockerignore
+
+# Local snapshot archives
+cloud-job-queue-phase*.zip
